@@ -31,6 +31,7 @@ h2 {
   margin: 0;
   padding: .75em 1em;
   font-family: "Denk One", sans-serif;
+  font-size: 1.5rem;
 }
 
 p {
@@ -49,6 +50,21 @@ p {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  .img-flex {
+    position: relative;
+  }
+
+  div {
+    position: absolute;
+    width: 60%;
+    right: 1em;
+    top: 8em;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 1em;
+    color: #fff;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -56,6 +72,11 @@ p {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  div {
+    top: 16em;
+    width: 45%;
   }
 }
 
